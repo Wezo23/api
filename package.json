@@ -1,5 +1,6 @@
 {
   "type": "module",
+  "main": "dist/backend/index.js",
   "scripts": {
     "dev": "ts-node-dev --loader ts-node/esm backend/index.ts",
     "build": "tsc",
